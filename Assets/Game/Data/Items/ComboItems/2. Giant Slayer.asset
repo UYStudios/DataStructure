@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d79e11cca2b664485ecb76adac62ce, type: 3}
+  m_Name: 2. Giant Slayer
+  m_EditorClassIdentifier: 
+  itemName: Giant Slayer
+  icon: {fileID: 0}
+  description: 
+  comboOfItems:
+  - {fileID: 11400000, guid: b4496104bcb46864cbdff83550d7513a, type: 2}
+  - {fileID: 11400000, guid: c4c0405a63783f64c9113341d1a69c7c, type: 2}
+  statAffected:
+  - stat: 0
+    amount: 30
+    isAmountInPercent: 1
+  - stat: 4
+    amount: 20
+    isAmountInPercent: 0
+  - stat: 1
+    amount: 10
+    isAmountInPercent: 1
+  comboStatAffected:
+  - isUniqueOnePerChampion: 0
+    affectType: 0
+    statuses: 
+    stat: 0
+    amount: 25
+    isAmountInPercent: 1
+    durationInSec: 0
+    conditions:
+    - enemies: 1
+      statToCheck: 6
+      amount: 1600
+      isAmountInPercent: 0
+      valueOperator: 2
+  - isUniqueOnePerChampion: 0
+    affectType: 0
+    statuses: 
+    stat: 4
+    amount: 25
+    isAmountInPercent: 1
+    durationInSec: 0
+    conditions:
+    - enemies: 1
+      statToCheck: 6
+      amount: 1600
+      isAmountInPercent: 0
+      valueOperator: 2

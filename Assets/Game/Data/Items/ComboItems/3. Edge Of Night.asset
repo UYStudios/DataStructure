@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d79e11cca2b664485ecb76adac62ce, type: 3}
+  m_Name: 3. Edge Of Night
+  m_EditorClassIdentifier: 
+  itemName: Edge Of Night
+  icon: {fileID: 0}
+  description: 
+  comboOfItems:
+  - {fileID: 11400000, guid: b4496104bcb46864cbdff83550d7513a, type: 2}
+  - {fileID: 11400000, guid: c8ea42880c6452b4b83b32b820dbfa66, type: 2}
+  statAffected:
+  - stat: 0
+    amount: 10
+    isAmountInPercent: 1
+  - stat: 2
+    amount: 20
+    isAmountInPercent: 0
+  comboStatAffected:
+  - isUniqueOnePerChampion: 1
+    affectType: 1
+    statuses: 010000000200000003000000
+    stat: 1
+    amount: 15
+    isAmountInPercent: 1
+    durationInSec: 0
+    conditions:
+    - enemies: 0
+      statToCheck: 6
+      amount: 60
+      isAmountInPercent: 1
+      valueOperator: 3
